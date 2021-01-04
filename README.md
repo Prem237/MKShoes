@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Project Name is MKShoeshop
+# Features
+1.Home
+2.Products
+3.Contact us
+4.About us
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
