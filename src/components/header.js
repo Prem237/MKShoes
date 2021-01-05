@@ -3,12 +3,7 @@ import Contact  from './Contacts';
 import {BrowserRouter ,Route, Switch, NavLink} from 'react-router-dom';
 import Modal from 'react-modal';
 import MainContent from './mainContent';
-const sp=()=>
-{
-    return <div ><Modal isOpen={true}>
-        <h1>MKSHOES</h1>
-        </Modal></div>
-}
+
 export default function Header() {
     return (
         <BrowserRouter>

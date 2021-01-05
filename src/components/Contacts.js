@@ -1,9 +1,7 @@
 import React from 'react'
-class Contact extends React.Component
+const Contact=()=>
 {
-    render()
-    {
-        return <img src="/images/boots.jpg"></img>
-    }
+     return <img src="/images/boots.jpg"></img>
+    
 }
 export default Contact;
