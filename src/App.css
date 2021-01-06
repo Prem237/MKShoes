@@ -92,8 +92,9 @@
     position: relative;
     width: 70%;
     height: 100%;
-    margin: 50px auto;
-    padding: 50px 0 0;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    padding: 10px 0 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-box-pack: justify;
@@ -107,8 +108,10 @@
     position: absolute;
     left: 0;
     top: 0;
-    color: #2d343e;
-    font-size: 10.5vw;
+    color: #eff2f5;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(9, 10, 10);
+   
   }
   
   .main-content .card {
@@ -207,10 +210,11 @@
     color: rgba(255, 255, 255, 0.3);
     font-size: 12px;
   }
- img{
+ .maincontentimg{
      width:100%;
     margin-left: 5px;
  } 
+ 
   
   li:hover{
       background-color: rgb(94, 94, 94);
@@ -220,4 +224,14 @@
 {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
+}
+.List
+{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.Middle{
+  margin-top: 5px;
+  width: 100%;
+  height:100%;
 }

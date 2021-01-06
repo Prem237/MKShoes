@@ -7,7 +7,7 @@ const MainContent=()=>{
     <div className="card" key={item.id}>
 
         <div className="card.img">
-            <img src={item.thumb}/>
+            <img className="maincontentimg"src={item.thumb}/>
         </div>
         <div className="card_header">
             <h2>{item.product_name}</h2>
@@ -18,9 +18,10 @@ const MainContent=()=>{
     </div>
     );
     return(
+        <div><img src="/images/Middle.jpg" className="Middle"></img>
         <div className="main-content">
-           
             {listitems}
+        </div>
         </div>
     )
 }

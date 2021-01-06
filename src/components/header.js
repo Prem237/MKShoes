@@ -1,8 +1,8 @@
 import React from 'react'
 import Contact  from './Contacts';
 import {BrowserRouter ,Route, Switch, NavLink} from 'react-router-dom';
-import Modal from 'react-modal';
 import MainContent from './mainContent';
+import HomePage from './Home';
 
 export default function Header() {
     return (
@@ -18,7 +18,7 @@ export default function Header() {
         </ul>
             </nav>
         <Switch>
-            <Route path="/" component={"prem"} exact={true}/>
+            <Route path="/" component={HomePage} exact={true}/>
             <Route path="/products" component={MainContent} />
             <Route path="/Contact" component={Contact}/>
         </Switch>
