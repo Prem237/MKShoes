@@ -177,12 +177,12 @@
     cursor: pointer;
   }
   
-  .main-content .card:hover .btn:hover {
+  .main-content .card:hover .btn:hover .Redirectpage {
     background-color: #000000;
     color: #fff;
   }
   
-  .btn {
+  .btn .Redirectpage {
     width: 130px;
     height: 35px;
     font-size: 20px;
@@ -231,7 +231,37 @@
   margin-bottom: 0px;
 }
 .Middle{
-  margin-top: 5px;
+  margin-top: 10px;
   width: 100%;
   height:100%;
+}
+.Delevery
+{
+  font-size: 20px;
+  font-family:cursive;
+  color:rgba(201, 201, 201, 0.815);
+}
+.edit-Buycart
+{
+background-color: rgba(15, 15, 15, 0.308);
+padding:20px;
+align-items: center;
+}
+.Buycard-head
+{
+color:whitesmoke;
+margin-left: 17px;
+}
+.buycart-input
+{
+  border-radius: 17px;
+  background-color: rgba(71, 71, 71, 0.459);
+  font-size: 15px;
+}
+.submit
+{
+  
+  border-radius: 6px;
+  padding: 5px;
+  align-items: center;
 }

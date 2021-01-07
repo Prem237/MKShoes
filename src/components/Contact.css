@@ -8,5 +8,19 @@
 table
 {
     margin-left: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 196px;
+}
+.name, .email, .feed{
+    border-color: rgba(62, 62, 63, 0.507);
+    border-radius: 8px;
+}
+.but1{
+    
+    color:rgb(241, 234, 234);
+    background-color: rgba(218, 213, 213, 0.411);
+}
+.Contact-list
+{
+color:rgba(165, 182, 161, 0.795);
+text-shadow: 2px 2px rgb(2, 2, 2);
 }

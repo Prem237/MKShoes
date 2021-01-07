@@ -1,0 +1,31 @@
+.About
+{
+    margin-bottom: 265px;
+}
+
+.About-header
+{
+    background-color: rgba(15, 15, 15, 0.308);
+color:white;
+margin:0;
+}
+
+.About-h1
+{
+color: rgba(223, 178, 136, 0.651);
+font-family: monospace;
+text-shadow:rgba(231, 231, 238, 0.568);
+font-size: 50px;
+text-align: center;
+margin-bottom: 20px;
+}
+.para
+{
+
+    font-style: oblique;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom:20px;
+    padding:0px 70px 70px 70px;
+}
