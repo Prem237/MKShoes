@@ -5,7 +5,8 @@ import MainContent from './mainContent';
 import HomePage from './Home';
 import Aboutpage from './About';
 import Buy from './Buycart';
-import history from './history'
+
+
 export default function Header() {
     return (
         <BrowserRouter>
@@ -25,11 +26,11 @@ export default function Header() {
             <Route path="/Products" component={MainContent}  />
             <Route path="/About" component={Aboutpage} />
             <Route path="/Contact" component={Contact} />
-            <Router history={history}>
             <Route path="/Buycart" component={Buy} />
-            </Router>
         </Switch>
+        
             </div>
         </BrowserRouter>
+        
     )
 }

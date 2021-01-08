@@ -11,13 +11,20 @@ table
     margin-bottom: 196px;
 }
 .name, .email, .feed{
-    border-color: rgba(62, 62, 63, 0.507);
+    border-color: rgba(14, 14, 14, 0.507);
     border-radius: 8px;
+    padding: 4px;
+    background-color:rgba(255, 255, 255, 0.158) ;
+    opacity: 15px;
+    color:white;
 }
+
 .but1{
     
     color:rgb(241, 234, 234);
-    background-color: rgba(218, 213, 213, 0.411);
+    background-color: rgba(240, 240, 240, 0.438);
+    padding:3px;
+    border-radius: 4px;
 }
 .Contact-list
 {

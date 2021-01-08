@@ -1,6 +1,6 @@
 import React from 'react';
 import product_card from "../data/product_data";
-import history from './history';
+import {NavLink} from 'react-router-dom';
  const MainContent=()=>{
   
     const listitems =product_card.map((item)=>
@@ -13,7 +13,7 @@ import history from './history';
             <h2>{item.product_name}</h2>
             <p>{item.description}</p>
             <p className="price"><span>{item.currency}</span>{item.price}</p>
-           <div className="btn"><button  className="Redirectpage" onClick={()=>history.push("/Buycart")}> buy</button> </div>
+           <div ><NavLink to="/Buycart" className="btn" >buy</NavLink></div>
         </div>
     </div>
     );
