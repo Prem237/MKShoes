@@ -5,7 +5,7 @@ import MainContent from './mainContent';
 import HomePage from './Home';
 import Aboutpage from './About';
 import Buy from './Buycart';
-
+import Cart from './Cart';
 
 export default function Header() {
     return (
@@ -18,6 +18,7 @@ export default function Header() {
             <li><NavLink to="/Products" activeClassName="is-active" className="nav">Our Products</NavLink></li>
             <li><NavLink to="/About" activeClassName="is-active" className="nav">About Us</NavLink></li>
             <li><NavLink to="/Contact" activeClassName="is-active" className="nav">Contact</NavLink></li>
+            
         </ul>
             </nav>
             
@@ -27,6 +28,7 @@ export default function Header() {
             <Route path="/About" component={Aboutpage} />
             <Route path="/Contact" component={Contact} />
             <Route path="/Buycart" component={Buy} />
+            <Route path="/Mycart" component={Cart} />
         </Switch>
         
             </div>

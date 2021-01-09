@@ -196,7 +196,20 @@
     transition: background-color .3s ease;
     overflow: hidden;
   }
-  
+  .btn1{
+    width: 130px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 35px;
+    background-color: #dcdee0;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    overflow: hidden;
+  }
   footer.p {
     width: 100%;
     -webkit-box-orient: vertical;
@@ -274,4 +287,14 @@ font-size: 35px;
   padding: 5px;
   align-items: center;
   background-color:rgb(241, 234, 234)
+}
+.nothing
+{
+  background-color:rgba(255, 255, 255, 0.158) ;
+  margin-bottom: 450px;
+}
+.main-content1
+{
+
+  margin-bottom: 46px;
 }
